@@ -1,16 +1,19 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(const MyApp());
+class Main extends StatefulWidget {
+  const Main({super.key});
+
+  @override
+  State<Main> createState() => _MainState();
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
+class _MainState extends State<Main> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Bom Dia'),),
+      appBar: AppBar(
+        title: Text('Bom Dia'),
+      ),
     );
   }
 }
