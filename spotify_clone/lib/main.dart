@@ -49,6 +49,8 @@ class _MyHomePageState extends State<MyHomePage> {
               child: Row(
                 children: [
                   
+                  //*Start the card
+
                 ],
               ),
 
