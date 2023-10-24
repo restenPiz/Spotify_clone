@@ -11,6 +11,8 @@ class _MainState extends State<Main> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
+      //*Inicio do appBar
       appBar: AppBar(
         title: Text('Bom Dia'),
       ),
