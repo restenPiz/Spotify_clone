@@ -58,9 +58,9 @@ class _MyHomePageState extends State<MyHomePage> {
                     value: 3,
                     groupValue: selectedValue,
                     onChanged: (value) {
-                      setState(() {
-                        selectedValue = value;
-                      });
+
+                      //*Start the method onChanged
+
                     },
                   ),
 
