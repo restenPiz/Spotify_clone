@@ -50,6 +50,16 @@ class _MyHomePageState extends State<MyHomePage> {
                 children: [
                   
                   //*Start the card
+                  RadioListTile(
+                    title: Text('Opção 3'),
+                    value: 3,
+                    groupValue: selectedValue,
+                    onChanged: (value) {
+                      setState(() {
+                        selectedValue = value;
+                      });
+                    },
+                  ),
 
                 ],
               ),
