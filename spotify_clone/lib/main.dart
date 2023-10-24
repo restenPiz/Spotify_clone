@@ -61,6 +61,8 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),
+
+      //*Inicio do floating button responsavel por fazer o incremento
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',
