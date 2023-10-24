@@ -52,7 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
 
-            //*Inicio do texto que vai aparecer que vai aparecer na tela
+            //*Inicio do texto que vai aparecer que vai aparecer na tela do applicativo
             const Text(
               'You have pushed the button this many times:',
             ),
