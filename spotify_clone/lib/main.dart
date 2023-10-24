@@ -41,10 +41,16 @@ class _MyHomePageState extends State<MyHomePage> {
         //*Start the content of the application
         child: Column(
           children: [
-            ListTile(
-              title: Text('Ola Mundo'),
-              subtitle: Text('Mundo Ola'),
-            ),
+
+            //*Start the container of the links
+            Container(),
+
+            //*Start the cards of the app
+            Container(),
+
+            //*Start the container of carousel
+            Container(),
+
           ],
         ),
 
