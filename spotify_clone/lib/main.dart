@@ -39,6 +39,14 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Container(
 
         //*Start the content of the application
+        child: Column(
+          children: [
+            ListTile(
+              title: Text('Ola Mundo'),
+              subtitle: Text('Mundo Ola'),
+            ),
+          ],
+        ),
 
       ),
     );
