@@ -1,31 +1,64 @@
-// ignore_for_file: prefer_const_constructors, avoid_unnecessary_containers, prefer_const_literals_to_create_immutables
-
 import 'package:flutter/material.dart';
 
-class Main extends StatefulWidget {
-  const Main({super.key});
-
-  @override
-  State<Main> createState() => _MainState();
+void main() {
+  runApp(const MyApp());
 }
 
-class _MainState extends State<Main> {
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Spotify App',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 0, 0, 0)),
+        useMaterial3: true,
+      ),
+      home: const MyHomePage(title: 'Bom Dia'),
+    );
+  }
+}
+
+class MyHomePage extends StatefulWidget {
+  const MyHomePage({super.key, required this.title});
+
+  final String title;
+
+  @override
+  State<MyHomePage> createState() => _MyHomePageState();
+}
+
+class _MyHomePageState extends State<MyHomePage> {
+  int _counter = 0;
+
+  //*Inicio do metodo de incremento
+  void _incrementCounter() {
+    setState(() {
+      _counter++;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
-      //*Inicio do appBar
       appBar: AppBar(
-        title: Text('Bom Dia'),
+        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+        title: Text(widget.title),
       ),
-      body: Container(
-
-        //*Inicio do body da app
+      body: Center(
         child: Column(
-          children: [
-            ListTile(
-              title: Text('Ola Mundo'),
-              subtitle: Text('Mundo Ola'),
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+
+            //*Inicio do texto que vai aparecer que vai aparecer na tela do applicativo
+            const Text(
+              'You have pushed the button this many times:',
+            ),
+            Text(
+              '$_counter',
+              style: Theme.of(context).textTheme.headlineMedium,
             ),
           ],
         ),
