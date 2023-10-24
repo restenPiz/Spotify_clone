@@ -47,23 +47,10 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
+      body: Container(
 
-            //*Inicio do texto que vai aparecer que vai aparecer na tela do applicativo
-            const Text(
-              'You have pushed the button this many times:',
-            ),
+        //*Start the content of the application
 
-            //?Inicio do metodo que printa o incremento
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headlineMedium,
-            ),
-          ],
-        ),
       ),
     );
   }
