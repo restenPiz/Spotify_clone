@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,10 +14,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Spotify App',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 0, 0, 0)),
-        useMaterial3: true,
-      ),
       home: const MyHomePage(title: 'Bom Dia'),
     );
   }
