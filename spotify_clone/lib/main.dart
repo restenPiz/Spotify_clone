@@ -82,7 +82,9 @@ class _MyHomePageState extends State<MyHomePage> {
         
 
       ),
-       bottomNavigationBar: BottomNavigationBar(
+
+      //*Inicio do bottomNavigationBar
+      bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             backgroundColor: Colors.transparent,
