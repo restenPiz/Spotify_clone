@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_constructors
 
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -78,8 +79,29 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
           ],
         ),
+        
 
       ),
+       bottomNavigationBar: BottomNavigationBar(
+        items: const <BottomNavigationBarItem>[
+          BottomNavigationBarItem(
+            icon: Icon(CupertinoIcons.home),
+            label: 'Início',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(CupertinoIcons.search),
+            label: 'Pesquisar',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(CupertinoIcons.profile_circled),
+            label: 'Perfil',
+          ),
+        ],
+        // currentIndex: _selectedIndex,
+        // onTap: _onItemTapped,
+      ),
+
+      
     );
   }
 }
