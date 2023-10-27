@@ -96,14 +96,9 @@ class _MyHomePageState extends State<MyHomePage> {
           BottomNavigationBarItem(
             icon: Icon(CupertinoIcons.profile_circled),
             label: 'Perfil',
-          ),bel: 'A tua biblioteca',
-          // ),
+          ),
         ],
-        // currentIndex: _selectedIndex,
-        // onTap: _onItemTapped,
       ),
-
-      
     );
   }
 }
