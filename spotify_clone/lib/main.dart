@@ -85,6 +85,7 @@ class _MyHomePageState extends State<MyHomePage> {
        bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
+            backgroundColor: Colors.transparent,
             icon: Icon(CupertinoIcons.home),
             label: 'Início',
           ),
@@ -95,7 +96,8 @@ class _MyHomePageState extends State<MyHomePage> {
           BottomNavigationBarItem(
             icon: Icon(CupertinoIcons.profile_circled),
             label: 'Perfil',
-          ),
+          ),bel: 'A tua biblioteca',
+          // ),
         ],
         // currentIndex: _selectedIndex,
         // onTap: _onItemTapped,
