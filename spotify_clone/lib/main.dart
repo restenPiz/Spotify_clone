@@ -44,8 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           children: [
             Container(
-              //*Inicio do texto da application
-              child: Text('Ola Mundo'),
+              //*Inicio das cards do app
             ),
           ],
         ),
