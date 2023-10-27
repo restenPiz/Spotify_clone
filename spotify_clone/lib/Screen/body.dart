@@ -10,6 +10,13 @@ class Body extends StatefulWidget {
 class _BodyState extends State<Body> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Container(
+      //*Inicio do corpo da app
+      child: Row(children: [
+        Container(
+          child: Text('Ola Mundo'),
+        )
+      ]),
+    );
   }
 }
