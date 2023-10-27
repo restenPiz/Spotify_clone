@@ -13,7 +13,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Spotify App',
-      theme: ThemeData.dark(), 
+      theme: ThemeData.dark().copyWith(
+        appBarTheme: const AppBarTheme(backgroundColor: Colors.black), 
+        scaffoldBackgroundColor: Colors.black, 
+      ),
       debugShowCheckedModeBanner: false,
       home: const MyHomePage(title: 'Bom Dia'),
     );
