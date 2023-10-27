@@ -47,22 +47,22 @@ class _MyHomePageState extends State<MyHomePage> {
           Row(
             children: [
               Container(
-                child: Icon(Icons.access_alarm_sharp),
+                child: Icon(Icons.sports_handball_rounded),
               ),
               Container(
-                width: 10,
+                width: 25,
               ),
               Container(
                 child: Icon(Icons.alarm),
               ),
               Container(
-                width: 10,
+                width: 25,
               ),
               Container(
                 child: Icon(Icons.settings),
               ),
               Container(
-                width: 10,
+                width: 15,
               ),
             ],
           ),
