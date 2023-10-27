@@ -41,40 +41,11 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Container(
 
-        //*Start the content of the application
         child: Column(
           children: [
-
-            //*Start the container of the links
             Container(
-
-              //?Start the row
-              child: Row(
-                children: [
-                  
-                  //*Start the card
-                  RadioListTile(
-                    title: Text('Opção 3'),
-                    value: 3,
-                    groupValue: selectedValue,
-                    onChanged: (value) {
-
-                      //*Start the method onChanged
-
-                    },
-                  ),
-
-                ],
-              ),
-
+              child: Text('Ola Mundo'),
             ),
-
-            //*Start the cards of the app
-            Container(),
-
-            //*Start the container of carousel
-            Container(),
-
           ],
         ),
 
