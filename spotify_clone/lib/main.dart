@@ -2,6 +2,7 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:spotify_clone/Screen/body.dart';
 
 void main() {
   runApp(const MyApp());
@@ -70,18 +71,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
         ],
       ),
-      body: Container(
-
-        child: Column(
-          children: [
-            Container(
-              //*Inicio das cards do app
-            ),
-          ],
-        ),
-        
-
-      ),
+      body: Body(),
 
       //*Inicio do bottomNavigationBar
       bottomNavigationBar: BottomNavigationBar(
