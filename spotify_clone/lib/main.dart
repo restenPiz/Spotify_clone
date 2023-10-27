@@ -41,6 +41,24 @@ class _MyHomePageState extends State<MyHomePage> {
         elevation: 0.0,
         backgroundColor: Colors.black,
         title: Text(widget.title),
+        actions: [
+
+          //*Inicio dos tres icones
+          Row(
+            children: [
+              Container(
+                child: Icon(Icons.access_alarm_sharp),
+              ),
+              Container(
+                child: Icon(Icons.access_alarm_sharp),
+              ),
+              Container(
+                child: Icon(Icons.access_alarm_sharp),
+              )
+            ],
+          ),
+
+        ],
       ),
       body: Container(
 
