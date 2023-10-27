@@ -50,11 +50,20 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: Icon(Icons.access_alarm_sharp),
               ),
               Container(
+                width: 10,
+              ),
+              Container(
                 child: Icon(Icons.alarm),
               ),
               Container(
+                width: 10,
+              ),
+              Container(
                 child: Icon(Icons.settings),
-              )
+              ),
+              Container(
+                width: 10,
+              ),
             ],
           ),
 
