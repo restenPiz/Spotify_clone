@@ -1,6 +1,7 @@
 // ignore_for_file: avoid_unnecessary_containers, prefer_const_constructors, prefer_const_literals_to_create_immutables
 
 import 'package:flutter/material.dart';
+import 'package:spotify_clone/Screen/carousel.dart';
 
 class Body extends StatefulWidget {
   const Body({super.key});
@@ -141,6 +142,10 @@ class _BodyState extends State<Body> {
               ),
             ),
           ),
+
+          //!Inicio da widget de carousel
+          Carousel(),
+
         ],
       ),
     );
