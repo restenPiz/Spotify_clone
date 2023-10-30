@@ -11,6 +11,15 @@ class Carousel extends StatefulWidget {
 
 class _CarouselState extends State<Carousel> {
   @override
+
+  //*Inicio do array de imagens
+  final List<String> imageUrls = [
+    'Images/a1.jpg',
+    'Images/a2.jpg',
+    'Images/a3.jpg',
+    'Images/a4.jpg',
+  ];
+
   Widget build(BuildContext context) {
     return Container(
       child: Center(
