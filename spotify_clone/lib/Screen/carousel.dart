@@ -34,9 +34,6 @@ class _CarouselState extends State<Carousel> {
               return Container(
                 width: MediaQuery.of(context).size.width,
                 margin: EdgeInsets.symmetric(horizontal: 5.0),
-                // decoration: BoxDecoration(
-                //   color: Colors.white,
-                // ),
                 child: Column(
                   children: [
                     Image.network(
