@@ -44,6 +44,9 @@ class _BodyState extends State<Body> {
                   ),
                 ),
               ),
+              Container(
+                height: 100,
+              ),
               //*Fim das cards
             ],
           ),
@@ -52,13 +55,45 @@ class _BodyState extends State<Body> {
               //*Inicio das cards
               Expanded(
                 child: Card(
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(25),
-                  ),
                   elevation: 4,
                   margin: EdgeInsets.all(16),
                   child: ListTile(
-                    //leading: Icon(Icons.favorite),
+                    leading: Icon(Icons.favorite),
+                    title: Text('Musica'),
+                  ),
+                ),
+              ),
+              Expanded(
+                child: Card(
+                  elevation: 4,
+                  margin: EdgeInsets.all(16),
+                  child: ListTile(
+                    leading: Icon(Icons.favorite),
+                    title: Text('Musica'),
+                  ),
+                ),
+              ),
+            ],
+          ),
+          Row(
+            children: [
+              //*Inicio das cards
+              Expanded(
+                child: Card(
+                  elevation: 4,
+                  margin: EdgeInsets.all(16),
+                  child: ListTile(
+                    leading: Icon(Icons.favorite),
+                    title: Text('Musica'),
+                  ),
+                ),
+              ),
+              Expanded(
+                child: Card(
+                  elevation: 4,
+                  margin: EdgeInsets.all(16),
+                  child: ListTile(
+                    leading: Icon(Icons.favorite),
                     title: Text('Musica'),
                   ),
                 ),
