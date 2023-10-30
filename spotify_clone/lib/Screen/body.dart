@@ -142,6 +142,9 @@ class _BodyState extends State<Body> {
               ),
             ),
           ),
+          Container(
+            height: 20,
+          ),
 
           //!Inicio da widget de carousel
           Carousel(),
