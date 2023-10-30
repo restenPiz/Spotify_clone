@@ -167,7 +167,6 @@ class _BodyState extends State<Body> {
 
                 //!Inicio da widget de carousel
                 Carousel(),
-                
               ],
             ),
       
