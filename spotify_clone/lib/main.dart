@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors
+// ignore_for_file: prefer_const_constructors, avoid_unnecessary_containers, duplicate_ignore
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -48,6 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
           //*Inicio dos tres icones
           Row(
             children: [
+              // ignore: avoid_unnecessary_containers
               Container(
                 child: Icon(Icons.sports_handball_rounded),
               ),
