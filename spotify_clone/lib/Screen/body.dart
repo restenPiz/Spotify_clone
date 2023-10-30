@@ -130,7 +130,12 @@ class _BodyState extends State<Body> {
 
           //*Inicio do Titulo que aparece antes do Carousel
           Container(
-            child: Text('Feito para Mauro Peniel'),
+            alignment: Alignment.centerLeft,
+            child: Text('Feito para Mauro Peniel',
+              style: TextStyle(
+                fontSize: 25
+              ),
+            ),
           ),
         ],
       ),
