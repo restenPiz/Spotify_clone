@@ -61,7 +61,7 @@ class _BodyState extends State<Body> {
                   margin: EdgeInsets.all(16),
                   child: ListTile(
                     leading: Image.asset('Images/a1.jpg'),
-                    title: Text('Musica'),
+                    title: Text('Musica de que gostaste'),
                   ),
                 ),
               ),
@@ -70,8 +70,8 @@ class _BodyState extends State<Body> {
                   elevation: 4,
                   margin: EdgeInsets.all(16),
                   child: ListTile(
-                    leading: Image.asset('Images/a2.jpg'),
-                    title: Text('Musica'),
+                    leading: Image.asset('Images/a3.jpg'),
+                    title: Text('Amapiano grooves'),
                   ),
                 ),
               ),
@@ -86,7 +86,7 @@ class _BodyState extends State<Body> {
                   margin: EdgeInsets.all(16),
                   child: ListTile(
                     leading: Image.asset('Images/a3.jpg'),
-                    title: Text('Musica'),
+                    title: Text('Catarse'),
                   ),
                 ),
               ),
@@ -95,8 +95,8 @@ class _BodyState extends State<Body> {
                   elevation: 4,
                   margin: EdgeInsets.all(16),
                   child: ListTile(
-                    leading: Image.asset('Images/a4.jpg'),
-                    title: Text('Musica'),
+                    leading: Image.asset('Images/a1.jpg'),
+                    title: Text('Ivy league'),
                   ),
                 ),
               ),
@@ -111,7 +111,7 @@ class _BodyState extends State<Body> {
                   margin: EdgeInsets.all(16),
                   child: ListTile(
                     leading: Image.asset('Images/a3.jpg'),
-                    title: Text('Musica'),
+                    title: Text('Mix romantica'),
                   ),
                 ),
               ),
@@ -120,8 +120,8 @@ class _BodyState extends State<Body> {
                   elevation: 4,
                   margin: EdgeInsets.all(16),
                   child: ListTile(
-                    leading: Image.asset('Images/a4.jpg'),
-                    title: Text('Musica'),
+                    leading: Image.asset('Images/a1.jpg'),
+                    title: Text('Em modo repeticao'),
                   ),
                 ),
               ),
