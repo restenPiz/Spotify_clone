@@ -14,6 +14,8 @@ class _CarouselState extends State<Carousel> {
   Widget build(BuildContext context) {
     return Container(
       child: Center(
+
+        //*Inicio do carousel
         child: CarouselSlider(
           items: [
             Container(
