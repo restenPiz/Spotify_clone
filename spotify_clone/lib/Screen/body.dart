@@ -22,7 +22,7 @@ class _BodyState extends State<Body> {
             margin: EdgeInsets.all(16),
             child: ListTile(
               //leading: Icon(Icons.favorite),
-              title: Text('Título do Card'),
+              title: Text('Musica'),
             ),
           ),
         ),
@@ -32,7 +32,7 @@ class _BodyState extends State<Body> {
             margin: EdgeInsets.all(16),
             child: ListTile(
               //leading: Icon(Icons.favorite),
-              title: Text('Título do Card'),
+              title: Text('Podcast e programas'),
             ),
           ),
         ),
