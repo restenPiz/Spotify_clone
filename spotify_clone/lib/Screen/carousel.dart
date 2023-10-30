@@ -47,7 +47,7 @@ class _CarouselState extends State<Carousel> {
 
                     //*Inicio do teste
                     Text('Texto abaixo da imagem',
-                      style: TextStyle(fontSize: 16),
+                      style: TextStyle(fontSize: 16,color: Colors.black),
                     ),
                   ],
                 ),
