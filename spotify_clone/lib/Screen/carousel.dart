@@ -34,9 +34,9 @@ class _CarouselState extends State<Carousel> {
               return Container(
                 width: MediaQuery.of(context).size.width,
                 margin: EdgeInsets.symmetric(horizontal: 5.0),
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                ),
+                // decoration: BoxDecoration(
+                //   color: Colors.white,
+                // ),
                 child: Column(
                   children: [
                     Image.network(
@@ -47,7 +47,7 @@ class _CarouselState extends State<Carousel> {
 
                     //*Inicio do teste
                     Text('Texto abaixo da imagem',
-                      style: TextStyle(fontSize: 16,color: Colors.black),
+                      style: TextStyle(fontSize: 16,color: Colors.white),
                     ),
                   ],
                 ),
