@@ -25,39 +25,42 @@ class _CarouselState extends State<Carousel> {
       child: Center(
 
         //*Inicio do carousel
-        child: CarouselSlider(
-          items: [
-            Container(
-              color: Colors.red,
-              child: Center(
-                child: Text("Slide 1"),
-              ),
+        child: Center(
+          child: CarouselSlider.builder(
+            itemCount: imageUrls.length,
+            itemBuilder: (context, index, realIndex) {
+              return Container(
+                width: MediaQuery.of(context).size.width,
+                margin: EdgeInsets.symmetric(horizontal: 5.0),
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                ),
+                child: Column(
+                  children: [
+                    Image.network(
+                      imageUrls[index],
+                      fit: BoxFit.cover, // Ajusta a imagem ao tamanho do Container
+                      height: 200.0, // Altura da imagem
+                    ),
+                    Text(
+                      "Texto abaixo da imagem $index",
+                      style: TextStyle(fontSize: 16),
+                    ),
+                  ],
+                ),
+              );
+            },
+            options: CarouselOptions(
+              height: 300.0,
+              enableInfiniteScroll: true,
+              autoPlay: true,
+              autoPlayInterval: Duration(seconds: 2),
+              autoPlayAnimationDuration: Duration(milliseconds: 800),
+              enlargeCenterPage: true,
             ),
-            Container(
-              color: Colors.green,
-              child: Center(
-                child: Text("Slide 2"),
-              ),
-            ),
-            Container(
-              color: Colors.blue,
-              child: Center(
-                child: Text("Slide 3"),
-              ),
-            ),
-          ],
-          options: CarouselOptions(
-            height: 200.0,
-            enableInfiniteScroll: true,
-            autoPlay: true,
-            autoPlayInterval: Duration(seconds: 2),
-            autoPlayAnimationDuration: Duration(milliseconds: 800),
-            enlargeCenterPage: true,
-            aspectRatio: 16 / 9,
           ),
         ),
         //*Fim do Carousel
-
       ),
     );
   }
