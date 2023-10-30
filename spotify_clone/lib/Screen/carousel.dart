@@ -47,6 +47,8 @@ class _CarouselState extends State<Carousel> {
             aspectRatio: 16 / 9,
           ),
         ),
+        //*Fim do Carousel
+
       ),
     );
   }
