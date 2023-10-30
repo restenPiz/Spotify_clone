@@ -148,6 +148,23 @@ class _BodyState extends State<Body> {
 
           //!Inicio da widget de carousel
           Carousel(),
+
+          Container(
+            alignment: Alignment.centerLeft,
+            padding: EdgeInsets.only(left: 16),
+            child: Text('Feito para Mauro Peniel',
+              style: TextStyle(
+                fontSize: 22
+              ),
+            ),
+          ),
+          Container(
+            height: 20,
+          ),
+
+          //!Inicio da widget de carousel
+          Carousel(),
+          
         ],
       ),
     );
