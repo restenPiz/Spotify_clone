@@ -41,11 +41,10 @@ class _CarouselState extends State<Carousel> {
                   children: [
                     Image.network(
                       imageUrls[index],
-                      fit: BoxFit.cover, // Ajusta a imagem ao tamanho do Container
-                      height: 200.0, // Altura da imagem
+                      fit: BoxFit.cover, 
+                      height: 200.0, 
                     ),
-                    Text(
-                      "Texto abaixo da imagem $index",
+                    Text('Texto abaixo da imagem',
                       style: TextStyle(fontSize: 16),
                     ),
                   ],
@@ -53,7 +52,7 @@ class _CarouselState extends State<Carousel> {
               );
             },
             //?Fim do foreach
-            
+
             options: CarouselOptions(
               height: 300.0,
               enableInfiniteScroll: true,
