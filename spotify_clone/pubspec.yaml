@@ -25,7 +25,7 @@ flutter:
   uses-material-design: true
 
   assets:
-  - Images/a1.JPG
-  - Images/a2.JPG
-  - Images/a3.JPG
-  - Images/a4.JPG
+  - Images/a1.jpg
+  - Images/a2.jpg
+  - Images/a3.jpg
+  - Images/a4.jpg

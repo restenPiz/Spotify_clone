@@ -60,7 +60,7 @@ class _BodyState extends State<Body> {
                   elevation: 4,
                   margin: EdgeInsets.all(16),
                   child: ListTile(
-                    leading: Icon(Icons.favorite),
+                    leading: Image.asset('Images/a1.jpg'),
                     title: Text('Musica'),
                   ),
                 ),
