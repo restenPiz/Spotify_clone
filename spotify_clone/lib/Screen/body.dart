@@ -14,6 +14,8 @@ class _BodyState extends State<Body> {
   Widget build(BuildContext context) {
     return Row(
       children: [
+
+        //*Inicio das cards
         Expanded(
           child: Card(
             elevation: 4,
