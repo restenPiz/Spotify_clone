@@ -133,7 +133,7 @@ class _BodyState extends State<Body> {
             alignment: Alignment.centerLeft,
             child: Text('Feito para Mauro Peniel',
               style: TextStyle(
-                fontSize: 25
+                fontSize: 22
               ),
             ),
           ),
