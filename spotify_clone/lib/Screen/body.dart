@@ -12,39 +12,39 @@ class Body extends StatefulWidget {
 class _BodyState extends State<Body> {
   @override
   Widget build(BuildContext context) {
-    return Row(
-      children: [
-
-        //*Inicio das cards
-        Expanded(
-          child: Card(
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(25),
-            ),
-            elevation: 4,
-            margin: EdgeInsets.all(16),
-            child: ListTile(
-              //leading: Icon(Icons.favorite),
-              title: Text('Musica'),
-            ),
-          ),
-        ),
-        Expanded(
-          child: Card(
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(25), 
-            ),
-            elevation: 4,
-            margin: EdgeInsets.all(16),
-            child: ListTile(
-              //leading: Icon(Icons.favorite),
-              title: Text('Podcast e programas'),
+    return Container(
+      child: Row(
+        children: [
+          //*Inicio das cards
+          Expanded(
+            child: Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(25),
+              ),
+              elevation: 4,
+              margin: EdgeInsets.all(16),
+              child: ListTile(
+                //leading: Icon(Icons.favorite),
+                title: Text('Musica'),
+              ),
             ),
           ),
-        ),
-
-        //*Fim das cards
-      ],
+          Expanded(
+            child: Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(25), 
+              ),
+              elevation: 4,
+              margin: EdgeInsets.all(16),
+              child: ListTile(
+                //leading: Icon(Icons.favorite),
+                title: Text('Podcast e programas'),
+              ),
+            ),
+          ),
+          //*Fim das cards
+        ],
+      ),
     );
   }
 }
