@@ -16,12 +16,8 @@ class _BodyState extends State<Body> {
       //*Inicio do corpo da app
       child: Row(children: [
         Container(
-          child: Card(
-            child: ListTile(
-              title: Text('Musica'),
-            ),
-          ),
-        ),
+          child: Text('Ola Mundo'),
+        )
       ]),
     );
   }
