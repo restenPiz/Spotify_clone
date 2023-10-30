@@ -44,6 +44,8 @@ class _CarouselState extends State<Carousel> {
                       fit: BoxFit.cover, 
                       height: 200.0, 
                     ),
+
+                    //*Inicio do teste
                     Text('Texto abaixo da imagem',
                       style: TextStyle(fontSize: 16),
                     ),
