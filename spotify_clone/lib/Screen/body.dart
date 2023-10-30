@@ -26,6 +26,16 @@ class _BodyState extends State<Body> {
             ),
           ),
         ),
+        Expanded(
+          child: Card(
+            elevation: 4,
+            margin: EdgeInsets.all(16),
+            child: ListTile(
+              leading: Icon(Icons.favorite),
+              title: Text('Título do Card'),
+            ),
+          ),
+        ),
       ],
     );
   }
