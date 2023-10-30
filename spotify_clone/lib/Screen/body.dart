@@ -70,7 +70,7 @@ class _BodyState extends State<Body> {
                   elevation: 4,
                   margin: EdgeInsets.all(16),
                   child: ListTile(
-                    leading: Icon(Icons.favorite),
+                    leading: Image.asset('Images/a2.jpg'),
                     title: Text('Musica'),
                   ),
                 ),
@@ -85,7 +85,7 @@ class _BodyState extends State<Body> {
                   elevation: 4,
                   margin: EdgeInsets.all(16),
                   child: ListTile(
-                    leading: Icon(Icons.favorite),
+                    leading: Image.asset('Images/a3.jpg'),
                     title: Text('Musica'),
                   ),
                 ),
@@ -95,7 +95,7 @@ class _BodyState extends State<Body> {
                   elevation: 4,
                   margin: EdgeInsets.all(16),
                   child: ListTile(
-                    leading: Icon(Icons.favorite),
+                    leading: Image.asset('Images/a4.jpg'),
                     title: Text('Musica'),
                   ),
                 ),
