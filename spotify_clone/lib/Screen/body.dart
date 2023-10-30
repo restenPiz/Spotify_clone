@@ -13,36 +13,58 @@ class _BodyState extends State<Body> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Row(
+      child: Column(
         children: [
-          //*Inicio das cards
-          Expanded(
-            child: Card(
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(25),
+          Row(
+            children: [
+              //*Inicio das cards
+              Expanded(
+                child: Card(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(25),
+                  ),
+                  elevation: 4,
+                  margin: EdgeInsets.all(16),
+                  child: ListTile(
+                    //leading: Icon(Icons.favorite),
+                    title: Text('Musica'),
+                  ),
+                ),
               ),
-              elevation: 4,
-              margin: EdgeInsets.all(16),
-              child: ListTile(
-                //leading: Icon(Icons.favorite),
-                title: Text('Musica'),
+              Expanded(
+                child: Card(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(25), 
+                  ),
+                  elevation: 4,
+                  margin: EdgeInsets.all(16),
+                  child: ListTile(
+                    //leading: Icon(Icons.favorite),
+                    title: Text('Podcast e programas'),
+                  ),
+                ),
               ),
-            ),
+              //*Fim das cards
+            ],
           ),
-          Expanded(
-            child: Card(
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(25), 
+          Row(
+            children: [
+              //*Inicio das cards
+              Expanded(
+                child: Card(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(25),
+                  ),
+                  elevation: 4,
+                  margin: EdgeInsets.all(16),
+                  child: ListTile(
+                    //leading: Icon(Icons.favorite),
+                    title: Text('Musica'),
+                  ),
+                ),
               ),
-              elevation: 4,
-              margin: EdgeInsets.all(16),
-              child: ListTile(
-                //leading: Icon(Icons.favorite),
-                title: Text('Podcast e programas'),
-              ),
-            ),
+            ],
           ),
-          //*Fim das cards
         ],
       ),
     );
