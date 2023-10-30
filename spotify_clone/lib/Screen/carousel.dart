@@ -27,6 +27,8 @@ class _CarouselState extends State<Carousel> {
         //*Inicio do carousel
         child: Center(
           child: CarouselSlider.builder(
+
+            //?Inicio do foreach
             itemCount: imageUrls.length,
             itemBuilder: (context, index, realIndex) {
               return Container(
@@ -50,6 +52,8 @@ class _CarouselState extends State<Carousel> {
                 ),
               );
             },
+            //?Fim do foreach
+            
             options: CarouselOptions(
               height: 300.0,
               enableInfiniteScroll: true,
