@@ -19,7 +19,7 @@ class _BodyState extends State<Body> {
         Expanded(
           child: Card(
             shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(16), // Defina o raio do border
+              borderRadius: BorderRadius.circular(16),
             ),
             elevation: 4,
             margin: EdgeInsets.all(16),
@@ -32,7 +32,7 @@ class _BodyState extends State<Body> {
         Expanded(
           child: Card(
             shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(16), // Defina o raio do border
+              borderRadius: BorderRadius.circular(16), 
             ),
             elevation: 4,
             margin: EdgeInsets.all(16),
