@@ -39,6 +39,8 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
+      //*Inicio do appBar
       appBar: AppBar(
         elevation: 0.0,
         backgroundColor: Colors.black,
@@ -72,6 +74,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
         ],
       ),
+
+      //*Inicio do Corpo do app
       body: Body(),
 
       //*Inicio do bottomNavigationBar
