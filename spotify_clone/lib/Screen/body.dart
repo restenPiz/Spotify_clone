@@ -50,6 +50,8 @@ class _BodyState extends State<Body> {
               //*Fim das cards
             ],
           ),
+
+          //*Inicio da row que mostra as bibliotecas
           Row(
             children: [
               //*Inicio das cards
