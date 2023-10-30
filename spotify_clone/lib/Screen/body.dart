@@ -102,6 +102,31 @@ class _BodyState extends State<Body> {
               ),
             ],
           ),
+          Row(
+            children: [
+              //*Inicio das cards
+              Expanded(
+                child: Card(
+                  elevation: 4,
+                  margin: EdgeInsets.all(16),
+                  child: ListTile(
+                    leading: Image.asset('Images/a3.jpg'),
+                    title: Text('Musica'),
+                  ),
+                ),
+              ),
+              Expanded(
+                child: Card(
+                  elevation: 4,
+                  margin: EdgeInsets.all(16),
+                  child: ListTile(
+                    leading: Image.asset('Images/a4.jpg'),
+                    title: Text('Musica'),
+                  ),
+                ),
+              ),
+            ],
+          ),
         ],
       ),
     );
