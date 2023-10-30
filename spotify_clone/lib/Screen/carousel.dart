@@ -12,7 +12,7 @@ class Carousel extends StatefulWidget {
 class _CarouselState extends State<Carousel> {
   @override
 
-  //*Inicio do array de imagens
+  //?Inicio do array de imagens
   final List<String> imageUrls = [
     'Images/a1.jpg',
     'Images/a2.jpg',
