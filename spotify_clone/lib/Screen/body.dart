@@ -18,7 +18,7 @@ class _BodyState extends State<Body> {
         children: [
           Container(
             child: Card(
-              // Customize a aparência do card usando o widget Card
+              color: Colors.white,
               elevation: 4, // Elevação para uma sombra sutil
               margin: EdgeInsets.all(16), // Margem ao redor do card
               child: ListTile(
