@@ -77,9 +77,6 @@ class _MyHomePageState extends State<MyHomePage> {
       //*Inicio do Corpo do app
       body: Body(),
 
-      //*Inicio do FloatingCard
-      
-      
       //*Inicio do bottomNavigationBar
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: Colors.transparent,
