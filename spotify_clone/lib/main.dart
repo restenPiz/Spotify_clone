@@ -96,6 +96,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
         ],
       ),
+      //*Fim do bottomNavigationBar
     );
   }
 }
