@@ -30,7 +30,6 @@ class _BodyState extends State<Body> {
                         elevation: 4,
                         margin: EdgeInsets.all(16),
                         child: ListTile(
-                          //leading: Icon(Icons.favorite),
                           title: Text('Musica'),
                         ),
                       ),
@@ -43,7 +42,6 @@ class _BodyState extends State<Body> {
                         elevation: 4,
                         margin: EdgeInsets.all(16),
                         child: ListTile(
-                          //leading: Icon(Icons.favorite),
                           title: Text('Podcast e programas'),
                         ),
                       ),
