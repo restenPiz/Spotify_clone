@@ -183,7 +183,7 @@ class _BodyState extends State<Body> {
                           Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
-                              //*Inicio da widget que coloca o nome e foto da musica
+                              //*Inicio da widget de nome e foto da musica
                               Expanded(child: Column(
                                 children: [
                                   ListTile(
