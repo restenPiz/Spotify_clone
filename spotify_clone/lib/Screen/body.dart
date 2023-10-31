@@ -165,9 +165,53 @@ class _BodyState extends State<Body> {
 
                 //!Inicio da widget de carousel
                 Carousel(),
+
+                //*Inicio da card flutuante
+                Positioned(
+                  bottom: 16, // Posiciona o card flutuante na parte inferior
+                  left: 16,
+                  right: 16,
+                  child: Card(
+                    elevation: 6,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(12.0),
+                    ),
+                    child: Container(
+                      padding: EdgeInsets.all(16),
+                      child: Column(
+                        children: [
+                          Text("Título da Música"),
+                          Text("Artista da Música"),
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              IconButton(
+                                icon: Icon(Icons.skip_previous),
+                                onPressed: () {
+                                  // Ação de voltar para a música anterior
+                                },
+                              ),
+                              IconButton(
+                                icon: Icon(Icons.play_arrow),
+                                onPressed: () {
+                                  // Ação de reproduzir/pausar a música
+                                },
+                              ),
+                              IconButton(
+                                icon: Icon(Icons.skip_next),
+                                onPressed: () {
+                                  // Ação de avançar para a próxima música
+                                },
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                ),
               ],
             ),
-      
           ),
         ],
       ),
