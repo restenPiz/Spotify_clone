@@ -187,9 +187,7 @@ class _BodyState extends State<Body> {
                             children: [
                               IconButton(
                                 icon: Icon(Icons.skip_previous),
-                                onPressed: () {
-                                  // Ação de voltar para a música anterior
-                                },
+                                onPressed: () {},
                               ),
                               IconButton(
                                 icon: Icon(Icons.play_arrow),
