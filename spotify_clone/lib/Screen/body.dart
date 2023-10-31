@@ -166,7 +166,7 @@ class _BodyState extends State<Body> {
                 //!Inicio da widget de carousel
                 Carousel(),
 
-                //*Inicio da card flutuante
+                //!Inicio da card flutuante
                 Positioned(
                   bottom: 16,
                   left: 16,
@@ -204,7 +204,7 @@ class _BodyState extends State<Body> {
                     ),
                   ),
                 ),
-                //*Fim da card flutuante
+                //!Fim da card flutuante
               ],
             ),
           ),
