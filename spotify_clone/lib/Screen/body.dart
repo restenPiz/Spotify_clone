@@ -168,7 +168,7 @@ class _BodyState extends State<Body> {
 
                 //*Inicio da card flutuante
                 Positioned(
-                  bottom: 16, // Posiciona o card flutuante na parte inferior
+                  bottom: 16,
                   left: 16,
                   right: 16,
                   child: Card(
