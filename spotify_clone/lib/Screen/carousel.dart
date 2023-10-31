@@ -52,6 +52,7 @@ class _CarouselState extends State<Carousel> {
             },
             //?Fim do foreach
 
+            //*Inicio das opcoes do carousel
             options: CarouselOptions(
               height: 300.0,
               enableInfiniteScroll: true,
