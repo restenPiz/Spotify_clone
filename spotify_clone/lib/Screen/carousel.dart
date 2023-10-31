@@ -36,6 +36,7 @@ class _CarouselState extends State<Carousel> {
                 margin: EdgeInsets.symmetric(horizontal: 5.0),
                 child: Column(
                   children: [
+                    //?Inicio da imagem
                     Image.network(
                       imageUrls[index],
                       fit: BoxFit.cover, 
