@@ -180,11 +180,18 @@ class _BodyState extends State<Body> {
                       padding: EdgeInsets.all(16),
                       child: Column(
                         children: [
-                          Text("Título da Música"),
-                          Text("Artista da Música"),
                           Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
+                              Expanded(child: Column(
+                                children: [
+                                  ListTile(
+                                    leading: Image.asset('Images/a1.jpg'),
+                                    title: Text('Musica de que gostaste'),
+                                    subtitle: Text('Ola mundo'),
+                                  ),
+                                ],
+                              )),
                               IconButton(
                                 icon: Icon(Icons.skip_previous),
                                 onPressed: () {},
