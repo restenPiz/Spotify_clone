@@ -193,15 +193,11 @@ class _BodyState extends State<Body> {
                               ),
                               IconButton(
                                 icon: Icon(Icons.play_arrow),
-                                onPressed: () {
-                                  // Ação de reproduzir/pausar a música
-                                },
+                                onPressed: () {},
                               ),
                               IconButton(
                                 icon: Icon(Icons.skip_next),
-                                onPressed: () {
-                                  // Ação de avançar para a próxima música
-                                },
+                                onPressed: () {},
                               ),
                             ],
                           ),
@@ -210,6 +206,7 @@ class _BodyState extends State<Body> {
                     ),
                   ),
                 ),
+                //*Fim da card flutuante
               ],
             ),
           ),
